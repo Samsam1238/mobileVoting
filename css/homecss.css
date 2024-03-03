@@ -1,0 +1,39 @@
+body{
+    margin: 15px;
+    background-image: url(../background/REGISRATION.png);
+}
+
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.log-in{
+    text-align: center;
+}
+.box{
+    width: 250px;
+    height: 390px;
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    top: 50%;
+    right:50%;
+    transform: translate(50%, -50%);
+    border-radius: 30px;
+    border-style: solid;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.logincon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #8ce9f5;
+}
+

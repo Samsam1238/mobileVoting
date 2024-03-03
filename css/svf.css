@@ -1,0 +1,79 @@
+body{
+    background-image: url(../background/2ndverformobile.png);
+}
+
+
+.title{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+.title h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.main-content{
+    position: absolute;
+    width: 80%;
+    height:50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.otpbox{
+    width: 30%;
+}
+
+.otp-field {
+    flex-direction: row;
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp-field input {
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.125rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: rgb(51, 51, 231);
+    color: white;
+  }
+  .otp-field input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .otp-field input::-webkit-inner-spin-button,
+  .otp-field input::-webkit-outer-spin-button {
+    display: none;
+  }
+
+
+
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url(../background/2ndver.png);
+
+    }
+    .title{
+        position: absolute;
+        top: 5%;
+        width: 100%;
+    }
+    .main-content{
+        position: absolute;
+        width: 80%;
+        height:50%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+}
